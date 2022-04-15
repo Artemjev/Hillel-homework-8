@@ -16,7 +16,7 @@ public class PrintIntElementProcessor implements ElementProcessor<Integer> {
   }
 }
 ```
- *А использование этого всего*
+ *А использование этого всего:*
 ```
 Integer[] arr = new Integer[]{1,2,3};
 ElementProcessor<Integer> elemProcessor = new PrintIntElementProcessor();
